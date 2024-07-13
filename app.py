@@ -2,6 +2,9 @@ import sys
 import streamlit as st
 from black_scholes import black_scholes
 
+## App Config
+st.set_page_config(page_title="Goble Portfolio")
+
 st.title('Black-Scholes Model Intuition')
 # Writing a basic app to get a feel for streamlit before I start building out the website
 # Time-value of money parameters:
