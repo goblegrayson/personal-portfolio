@@ -1,3 +1,3 @@
 [submodule "black-scholes"]
-	path = black-scholes
+	path = black_scholes
 	url = https://github.com/goblegrayson/black-scholes.git
