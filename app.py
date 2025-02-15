@@ -23,8 +23,9 @@ pages = {
     'Who am I?': [
         st.Page(title='About Me', page='about.py'),
     ],
-    'Black Scholes': [
-        st.Page(title='Black-Scholes Intuition', page=str(Path('black_scholes', 'page.py')))
+    'Pricing Models': [
+        st.Page(title='Black-Scholes', url_path='black-scholes', page=str(Path('black_scholes', 'page.py'))),
+        st.Page(title='Black-Derman-Toy', url_path='bdt', page=str(Path('bdt', 'page.py')))
     ]
 }
 pg = st.navigation(pages)

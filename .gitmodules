@@ -1,3 +1,6 @@
 [submodule "black-scholes"]
 	path = black_scholes
 	url = https://github.com/goblegrayson/black-scholes.git
+[submodule "bdt"]
+	path = bdt
+	url = https://github.com/goblegrayson/bdt.git
