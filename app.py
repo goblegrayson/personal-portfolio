@@ -26,6 +26,9 @@ pages = {
     'Pricing Models': [
         st.Page(title='Black-Scholes', url_path='black-scholes', page=str(Path('black_scholes', 'page.py'))),
         st.Page(title='Black-Derman-Toy', url_path='bdt', page=str(Path('bdt', 'page.py')))
+    ],
+    'Backtests': [
+        st.Page(title='Dirty Crypto Trend', url_path='dirty-crypto-trend', page=str(Path('dirty-crypto-trend', 'page.py')))
     ]
 }
 pg = st.navigation(pages)
