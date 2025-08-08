@@ -4,3 +4,6 @@
 [submodule "bdt"]
 	path = bdt
 	url = https://github.com/goblegrayson/bdt.git
+[submodule "SLAM"]
+	path = SLAM
+	url = https://github.com/goblegrayson/SLAM.git

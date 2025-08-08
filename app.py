@@ -23,13 +23,15 @@ pages = {
     'Who am I?': [
         st.Page(title='About Me', page='about.py'),
     ],
-    'Pricing Models': [
-        st.Page(title='Black-Scholes', url_path='black-scholes', page=str(Path('black_scholes', 'page.py'))),
-        st.Page(title='Black-Derman-Toy', url_path='bdt', page=str(Path('bdt', 'page.py')))
+    'Aerospace Simulation and Control': [
+        st.Page(title='SLAM: A 6-DOF Simulation', url_path='slam', page=str(Path('SLAM', 'page.py')))
     ],
-    'Backtests': [
+    'Quantitative Finance': [
+        st.Page(title='Black-Scholes Option Pricing Model', url_path='black-scholes', page=str(Path('black_scholes', 'page.py'))),
+        st.Page(title='Black-Derman-Toy Interest Rate Model', url_path='bdt', page=str(Path('bdt', 'page.py'))),
         st.Page(title='Dirty Crypto Trend', url_path='dirty-crypto-trend', page=str(Path('dirty-crypto-trend', 'page.py')))
-    ]
+    ],
+
 }
 pg = st.navigation(pages)
 pg.run()
