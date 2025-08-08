@@ -23,7 +23,7 @@ pages = {
     'Who am I?': [
         st.Page(title='About Me', page='about.py'),
     ],
-    'Aerospace Simulation and Control': [
+    'Aerospace Modeling, Simulation, and Control': [
         st.Page(title='SLAM: A 6-DOF Simulation', url_path='slam', page=str(Path('SLAM', 'page.py')))
     ],
     'Quantitative Finance': [
